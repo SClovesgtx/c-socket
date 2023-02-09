@@ -2,5 +2,19 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "files.autoSave": "afterDelay",
     "editor.lineNumbers": "relative",
-    "workbench.colorTheme": "Default High Contrast"
+    "editor.suggestOnTriggerCharacters": true,
+    "cSpell.language": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "[markdown]": {
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        }
+    },
+    "workbench.colorTheme": "Default High Contrast",
 }
