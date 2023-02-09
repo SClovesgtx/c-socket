@@ -1,0 +1,6 @@
+{
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.autoSave": "afterDelay",
+    "editor.lineNumbers": "relative",
+    "workbench.colorTheme": "Default High Contrast"
+}
