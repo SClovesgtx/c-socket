@@ -19,7 +19,7 @@
 #define MAXLINE 4096 // buffer length
 #define SA struct sockaddr
 
-void err_n_die(const char fmt, ...); // handle errors
+void err_n_die(const char *fmt, ...); // handle errors
 
 int main(int argc, char **argv){
     // local variable
@@ -71,7 +71,7 @@ int main(int argc, char **argv){
     exit(0);
 }
 
-void err_n_die(const char fmt, ...){
+void err_n_die(const char *fmt, ...){
     int      errno_save;
     va_list  ap;
 
